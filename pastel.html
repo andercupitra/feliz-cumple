@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cumpleaños de Yuneidy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffe0b2;
+            font-family: Arial, sans-serif;
+        }
+        .welcome-screen {
+            text-align: center;
+        }
+        .welcome-screen img {
+            width: 40%;
+            max-width: 300px;
+            height: auto;
+            cursor: pointer;
+        }
+        h1 {
+            color: #d84315;
+            font-size: 6vw;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-screen">
+        <h1>Toque el pastel para ingresar</h1>
+        <img src="bday-419.gif" alt="Pastel" onclick="ingresar()">
+    </div>
+
+    <script>
+        function ingresar() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
